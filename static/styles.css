@@ -11,16 +11,17 @@ h1 {
 
 .container {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;  /* Change to column */
+    align-items: center;  /* Center the content horizontally */
     margin-top: 20px;
 }
 
 .chart-container {
-    width: 45%;
+    width: 80%;  /* Adjust the width to take up most of the container */
+    max-width: 800px;  /* Set a maximum width for larger screens */
     border: 1px solid #ddd;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
-}
-
+} 

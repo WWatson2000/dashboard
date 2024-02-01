@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crime Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Crime Dashboard</h1>
+    
+    <div class="container">
+        <div class="chart-container">
+            {{ crime_type_chart_html|safe }}
+        </div>
+
+        <div class="chart-container">
+            {{ outcome_category_chart_html|safe }}
+        </div>
+    </div>
+</body>
+</html>

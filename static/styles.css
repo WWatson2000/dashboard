@@ -6,7 +6,7 @@ body {
 
 .banner {
     background-color: #00649c;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 10px;
     margin-bottom: 20px;

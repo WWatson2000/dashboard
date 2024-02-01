@@ -958,3 +958,144 @@ DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/U
 DEBUG:fsevents:NativeEvent(path="/Users/charlottewatson/Downloads/dashboard/.git/index.lock", inode=17509627, flags=10100, id=19887921): is_created, is_file
 DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/charlottewatson/Downloads/dashboard/.git/index.lock', is_directory=False>
 DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/charlottewatson/Downloads/dashboard/.git', is_directory=True>
+DEBUG:fsevents:NativeEvent(path="/Users/charlottewatson/Downloads/dashboard/.git/objects/4e/4318a7d7e02f6fa5ce8a6ead2196453145b1fb", inode=17509628, flags=110100, id=19887930): is_created, is_file, is_hardlink
+DEBUG:fsevents:NativeEvent(path="/Users/charlottewatson/Downloads/dashboard/.git/objects/4e", inode=17494538, flags=20400, id=19887933): is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/charlottewatson/Downloads/dashboard/.git/objects/4e/tmp_obj_sOj6Hg", inode=17509628, flags=111300, id=19887936): is_coalesced, is_created, is_file, is_hardlink, is_modified, is_removed
+DEBUG:fsevents:NativeEvent(path="/Users/charlottewatson/Downloads/dashboard/.git/objects/cc/9baad5ae07e037f8ca2637609f14d60ff831a2", inode=17509631, flags=110100, id=19887945): is_created, is_file, is_hardlink
+DEBUG:fsevents:NativeEvent(path="/Users/charlottewatson/Downloads/dashboard/.git/objects/cc", inode=17493786, flags=20400, id=19887948): is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/charlottewatson/Downloads/dashboard/.git/objects/cc/tmp_obj_ZG8jCB", inode=17509631, flags=111300, id=19887951): is_coalesced, is_created, is_file, is_hardlink, is_modified, is_removed
+DEBUG:fsevents:NativeEvent(path="/Users/charlottewatson/Downloads/dashboard/.git/objects/5a/4d7d24b5b569a2ae5eb8d8a9b23a4d9d79469c", inode=17509634, flags=110100, id=19887960): is_created, is_file, is_hardlink
+DEBUG:fsevents:NativeEvent(path="/Users/charlottewatson/Downloads/dashboard/.git/objects/5a", inode=17493605, flags=20400, id=19887963): is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/charlottewatson/Downloads/dashboard/.git/objects/5a/tmp_obj_p3WE1A", inode=17509634, flags=111300, id=19887966): is_coalesced, is_created, is_file, is_hardlink, is_modified, is_removed
+DEBUG:fsevents:NativeEvent(path="/Users/charlottewatson/Downloads/dashboard/.git/index.lock", inode=17509627, flags=11900, id=19887972): is_coalesced, is_created, is_file, is_modified, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/charlottewatson/Downloads/dashboard/.git/index", inode=17509627, flags=10800, id=19887973): is_file, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/charlottewatson/Downloads/dashboard/.git/index", inode=17508879, flags=10800, id=19887974): is_file, is_renamed
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/charlottewatson/Downloads/dashboard/.git/objects/4e/4318a7d7e02f6fa5ce8a6ead2196453145b1fb', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/charlottewatson/Downloads/dashboard/.git/objects/4e', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/charlottewatson/Downloads/dashboard/.git/objects/4e', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/charlottewatson/Downloads/dashboard/.git/objects/4e/tmp_obj_sOj6Hg', is_directory=False>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/charlottewatson/Downloads/dashboard/.git/objects/4e/tmp_obj_sOj6Hg', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/charlottewatson/Downloads/dashboard/.git/objects/4e', is_directory=True>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/charlottewatson/Downloads/dashboard/.git/objects/cc/9baad5ae07e037f8ca2637609f14d60ff831a2', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/charlottewatson/Downloads/dashboard/.git/objects/cc', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/charlottewatson/Downloads/dashboard/.git/objects/cc', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/charlottewatson/Downloads/dashboard/.git/objects/cc/tmp_obj_ZG8jCB', is_directory=False>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/charlottewatson/Downloads/dashboard/.git/objects/cc/tmp_obj_ZG8jCB', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/charlottewatson/Downloads/dashboard/.git/objects/cc', is_directory=True>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/charlottewatson/Downloads/dashboard/.git/objects/5a/4d7d24b5b569a2ae5eb8d8a9b23a4d9d79469c', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/charlottewatson/Downloads/dashboard/.git/objects/5a', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/charlottewatson/Downloads/dashboard/.git/objects/5a', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/charlottewatson/Downloads/dashboard/.git/objects/5a/tmp_obj_p3WE1A', is_directory=False>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/charlottewatson/Downloads/dashboard/.git/objects/5a/tmp_obj_p3WE1A', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/charlottewatson/Downloads/dashboard/.git/objects/5a', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/charlottewatson/Downloads/dashboard/.git/index.lock', is_directory=False>
+DEBUG:fsevents:Destination event for rename is NativeEvent(path="/Users/charlottewatson/Downloads/dashboard/.git/index", inode=17509627, flags=10800, id=19887973)
+DEBUG:fsevents:queue_event <FileMovedEvent: src_path='/Users/charlottewatson/Downloads/dashboard/.git/index.lock', dest_path='/Users/charlottewatson/Downloads/dashboard/.git/index', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/charlottewatson/Downloads/dashboard/.git', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/charlottewatson/Downloads/dashboard/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/charlottewatson/Downloads/dashboard/.git/index', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/charlottewatson/Downloads/dashboard/.git', is_directory=True>
+DEBUG:fsevents:NativeEvent(path="/Users/charlottewatson/Downloads/dashboard/.git/objects/d3/15969e9a578e513ecf9b9e2927eb1101216dad", inode=17509638, flags=110100, id=19887986): is_created, is_file, is_hardlink
+DEBUG:fsevents:NativeEvent(path="/Users/charlottewatson/Downloads/dashboard/.git/objects/d3", inode=17494350, flags=20400, id=19887989): is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/charlottewatson/Downloads/dashboard/.git/objects/d3/tmp_obj_dMhykA", inode=17509638, flags=111300, id=19887992): is_coalesced, is_created, is_file, is_hardlink, is_modified, is_removed
+DEBUG:fsevents:NativeEvent(path="/Users/charlottewatson/Downloads/dashboard/.git/objects/9e/a2c7e0b40f3200927bd68cdf9c50a064e0d135", inode=17509641, flags=110100, id=19888001): is_created, is_file, is_hardlink
+DEBUG:fsevents:NativeEvent(path="/Users/charlottewatson/Downloads/dashboard/.git/objects/9e", inode=17494759, flags=20400, id=19888004): is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/charlottewatson/Downloads/dashboard/.git/objects/9e/tmp_obj_Nuwurp", inode=17509641, flags=111300, id=19888007): is_coalesced, is_created, is_file, is_hardlink, is_modified, is_removed
+DEBUG:fsevents:NativeEvent(path="/Users/charlottewatson/Downloads/dashboard/.git/index.lock", inode=17509637, flags=11900, id=19888013): is_coalesced, is_created, is_file, is_modified, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/charlottewatson/Downloads/dashboard/.git/index", inode=17509637, flags=10800, id=19888014): is_file, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/charlottewatson/Downloads/dashboard/.git/index", inode=17509627, flags=10800, id=19888015): is_file, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/charlottewatson/Downloads/dashboard/.git/COMMIT_EDITMSG", inode=17498416, flags=10400, id=19888018): is_file, is_inode_meta_mod
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/charlottewatson/Downloads/dashboard/.git/objects/d3/15969e9a578e513ecf9b9e2927eb1101216dad', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/charlottewatson/Downloads/dashboard/.git/objects/d3', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/charlottewatson/Downloads/dashboard/.git/objects/d3', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/charlottewatson/Downloads/dashboard/.git/objects/d3/tmp_obj_dMhykA', is_directory=False>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/charlottewatson/Downloads/dashboard/.git/objects/d3/tmp_obj_dMhykA', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/charlottewatson/Downloads/dashboard/.git/objects/d3', is_directory=True>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/charlottewatson/Downloads/dashboard/.git/objects/9e/a2c7e0b40f3200927bd68cdf9c50a064e0d135', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/charlottewatson/Downloads/dashboard/.git/objects/9e', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/charlottewatson/Downloads/dashboard/.git/objects/9e', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/charlottewatson/Downloads/dashboard/.git/objects/9e/tmp_obj_Nuwurp', is_directory=False>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/charlottewatson/Downloads/dashboard/.git/objects/9e/tmp_obj_Nuwurp', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/charlottewatson/Downloads/dashboard/.git/objects/9e', is_directory=True>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/charlottewatson/Downloads/dashboard/.git/index.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/charlottewatson/Downloads/dashboard/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/charlottewatson/Downloads/dashboard/.git/index.lock', is_directory=False>
+DEBUG:fsevents:Destination event for rename is NativeEvent(path="/Users/charlottewatson/Downloads/dashboard/.git/index", inode=17509637, flags=10800, id=19888014)
+DEBUG:fsevents:queue_event <FileMovedEvent: src_path='/Users/charlottewatson/Downloads/dashboard/.git/index.lock', dest_path='/Users/charlottewatson/Downloads/dashboard/.git/index', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/charlottewatson/Downloads/dashboard/.git', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/charlottewatson/Downloads/dashboard/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/charlottewatson/Downloads/dashboard/.git/index', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/charlottewatson/Downloads/dashboard/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/charlottewatson/Downloads/dashboard/.git/COMMIT_EDITMSG', is_directory=False>
+DEBUG:fsevents:NativeEvent(path="/Users/charlottewatson/Downloads/dashboard/.git/COMMIT_EDITMSG", inode=17498416, flags=11400, id=19888021): is_file, is_inode_meta_mod, is_modified
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/charlottewatson/Downloads/dashboard/.git/COMMIT_EDITMSG', is_directory=False>
+DEBUG:fsevents:NativeEvent(path="/Users/charlottewatson/Downloads/dashboard/.git/COMMIT_EDITMSG", inode=17498416, flags=11400, id=19888140): is_file, is_inode_meta_mod, is_modified
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/charlottewatson/Downloads/dashboard/.git/COMMIT_EDITMSG', is_directory=False>
+DEBUG:fsevents:NativeEvent(path="/Users/charlottewatson/Downloads/dashboard/.git/COMMIT_EDITMSG", inode=17498416, flags=11400, id=19888143): is_file, is_inode_meta_mod, is_modified
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/charlottewatson/Downloads/dashboard/.git/COMMIT_EDITMSG', is_directory=False>
+DEBUG:fsevents:NativeEvent(path="/Users/charlottewatson/Downloads/dashboard/.git/objects/f5/aaa4b5a1c9d594fcf111a2b9cd589a8959ea21", inode=17509659, flags=110100, id=19888164): is_created, is_file, is_hardlink
+DEBUG:fsevents:NativeEvent(path="/Users/charlottewatson/Downloads/dashboard/.git/objects/f5", inode=17493994, flags=20400, id=19888167): is_directory, is_inode_meta_mod
+DEBUG:fsevents:NativeEvent(path="/Users/charlottewatson/Downloads/dashboard/.git/objects/f5/tmp_obj_EeHZT5", inode=17509659, flags=111300, id=19888170): is_coalesced, is_created, is_file, is_hardlink, is_modified, is_removed
+DEBUG:fsevents:NativeEvent(path="/Users/charlottewatson/Downloads/dashboard/.git/logs/HEAD", inode=17498491, flags=11000, id=19888182): is_file, is_modified
+DEBUG:fsevents:NativeEvent(path="/Users/charlottewatson/Downloads/dashboard/.git/logs/refs/heads/main", inode=17498494, flags=11000, id=19888185): is_file, is_modified
+DEBUG:fsevents:NativeEvent(path="/Users/charlottewatson/Downloads/dashboard/.git/refs/heads/main.lock", inode=17509663, flags=11900, id=19888188): is_coalesced, is_created, is_file, is_modified, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/charlottewatson/Downloads/dashboard/.git/refs/heads/main", inode=17509663, flags=10800, id=19888189): is_file, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/charlottewatson/Downloads/dashboard/.git/refs/heads/main", inode=17508895, flags=10800, id=19888190): is_file, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/charlottewatson/Downloads/dashboard/.git/HEAD.lock", inode=17509662, flags=10300, id=19888193): is_coalesced, is_created, is_file, is_removed
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/charlottewatson/Downloads/dashboard/.git/objects/f5/aaa4b5a1c9d594fcf111a2b9cd589a8959ea21', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/charlottewatson/Downloads/dashboard/.git/objects/f5', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/charlottewatson/Downloads/dashboard/.git/objects/f5', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/charlottewatson/Downloads/dashboard/.git/objects/f5/tmp_obj_EeHZT5', is_directory=False>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/charlottewatson/Downloads/dashboard/.git/objects/f5/tmp_obj_EeHZT5', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/charlottewatson/Downloads/dashboard/.git/objects/f5', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/charlottewatson/Downloads/dashboard/.git/logs/HEAD', is_directory=False>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/charlottewatson/Downloads/dashboard/.git/logs/refs/heads/main', is_directory=False>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/charlottewatson/Downloads/dashboard/.git/refs/heads/main.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/charlottewatson/Downloads/dashboard/.git/refs/heads', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/charlottewatson/Downloads/dashboard/.git/refs/heads/main.lock', is_directory=False>
+DEBUG:fsevents:Destination event for rename is NativeEvent(path="/Users/charlottewatson/Downloads/dashboard/.git/refs/heads/main", inode=17509663, flags=10800, id=19888189)
+DEBUG:fsevents:queue_event <FileMovedEvent: src_path='/Users/charlottewatson/Downloads/dashboard/.git/refs/heads/main.lock', dest_path='/Users/charlottewatson/Downloads/dashboard/.git/refs/heads/main', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/charlottewatson/Downloads/dashboard/.git/refs/heads', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/charlottewatson/Downloads/dashboard/.git/refs/heads', is_directory=True>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/charlottewatson/Downloads/dashboard/.git/refs/heads/main', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/charlottewatson/Downloads/dashboard/.git/refs/heads', is_directory=True>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/charlottewatson/Downloads/dashboard/.git/HEAD.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/charlottewatson/Downloads/dashboard/.git', is_directory=True>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/charlottewatson/Downloads/dashboard/.git/HEAD.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/charlottewatson/Downloads/dashboard/.git', is_directory=True>
+DEBUG:fsevents:NativeEvent(path="/Users/charlottewatson/Downloads/dashboard/.git/objects/maintenance.lock", inode=17509664, flags=10300, id=19888199): is_coalesced, is_created, is_file, is_removed
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/charlottewatson/Downloads/dashboard/.git/objects/maintenance.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/charlottewatson/Downloads/dashboard/.git/objects', is_directory=True>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/charlottewatson/Downloads/dashboard/.git/objects/maintenance.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/charlottewatson/Downloads/dashboard/.git/objects', is_directory=True>
+DEBUG:fsevents:NativeEvent(path="/Users/charlottewatson/Downloads/dashboard/.git/logs/refs/remotes/origin/main", inode=17498566, flags=11000, id=19888316): is_file, is_modified
+DEBUG:fsevents:NativeEvent(path="/Users/charlottewatson/Downloads/dashboard/.git/refs/remotes/origin/main.lock", inode=17509673, flags=11900, id=19888319): is_coalesced, is_created, is_file, is_modified, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/charlottewatson/Downloads/dashboard/.git/refs/remotes/origin/main", inode=17509673, flags=10800, id=19888320): is_file, is_renamed
+DEBUG:fsevents:NativeEvent(path="/Users/charlottewatson/Downloads/dashboard/.git/refs/remotes/origin/main", inode=17508477, flags=10800, id=19888321): is_file, is_renamed
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/charlottewatson/Downloads/dashboard/.git/logs/refs/remotes/origin/main', is_directory=False>
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/charlottewatson/Downloads/dashboard/.git/refs/remotes/origin/main.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/charlottewatson/Downloads/dashboard/.git/refs/remotes/origin', is_directory=True>
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/charlottewatson/Downloads/dashboard/.git/refs/remotes/origin/main.lock', is_directory=False>
+DEBUG:fsevents:Destination event for rename is NativeEvent(path="/Users/charlottewatson/Downloads/dashboard/.git/refs/remotes/origin/main", inode=17509673, flags=10800, id=19888320)
+DEBUG:fsevents:queue_event <FileMovedEvent: src_path='/Users/charlottewatson/Downloads/dashboard/.git/refs/remotes/origin/main.lock', dest_path='/Users/charlottewatson/Downloads/dashboard/.git/refs/remotes/origin/main', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/charlottewatson/Downloads/dashboard/.git/refs/remotes/origin', is_directory=True>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/charlottewatson/Downloads/dashboard/.git/refs/remotes/origin', is_directory=True>
+DEBUG:fsevents:queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/charlottewatson/Downloads/dashboard/.git/refs/remotes/origin/main', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/charlottewatson/Downloads/dashboard/.git/refs/remotes/origin', is_directory=True>
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2024 10:50:57] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2024 10:50:57] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2024 10:50:57] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Feb/2024 10:50:57] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+DEBUG:fsevents:NativeEvent(path="/Users/charlottewatson/Downloads/dashboard/app.py", inode=17486851, flags=10400, id=19891649): is_file, is_inode_meta_mod
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/charlottewatson/Downloads/dashboard/app.py', is_directory=False>
+INFO:werkzeug: * Detected change in '/Users/charlottewatson/Downloads/dashboard/app.py', reloading
+DEBUG:fsevents:NativeEvent(path="/Users/charlottewatson/Downloads/dashboard/app.py", inode=17486851, flags=11400, id=19891652): is_file, is_inode_meta_mod, is_modified
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/charlottewatson/Downloads/dashboard/app.py', is_directory=False>
+INFO:werkzeug: * Detected change in '/Users/charlottewatson/Downloads/dashboard/app.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 393-788-250
+DEBUG:fsevents:NativeEvent(path="/Users/charlottewatson/Downloads/dashboard/.git/FETCH_HEAD", inode=17493357, flags=10400, id=19891743): is_file, is_inode_meta_mod
+DEBUG:fsevents:queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/charlottewatson/Downloads/dashboard/.git/FETCH_HEAD', is_directory=False>
+DEBUG:fsevents:NativeEvent(path="/Users/charlottewatson/Downloads/dashboard/.git/index.lock", inode=17509947, flags=10100, id=19891746): is_created, is_file
+DEBUG:fsevents:queue_event <FileCreatedEvent: event_type=created, src_path='/Users/charlottewatson/Downloads/dashboard/.git/index.lock', is_directory=False>
+DEBUG:fsevents:queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/charlottewatson/Downloads/dashboard/.git', is_directory=True>

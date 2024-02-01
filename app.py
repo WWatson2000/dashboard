@@ -20,11 +20,11 @@ def index():
     # Create Pie chart for 'Last Outcome Category'
     outcome_category_chart = px.pie(df, names='Last outcome category', title='Last Outcome Category Distribution')
 
-    # Create Bubble chart for the relationship between 'Crime type' and 'Location'
-    bubble_chart_df = df.groupby(['Location', 'Crime type']).size().reset_index(name='Count')
-    bubble_chart = px.scatter(bubble_chart_df, x='Location', y='Crime type', size='Count',
-                               title='Relationship between Crime Type and Location',
-                               labels={'Count': 'Number of Crimes'})
+    # Create Bubble chart for the relationship between the total number of crime types and 'Location'
+    bubble_chart_df = df.groupby('Location')['Crime type'].nunique().reset_index(name='Count')
+    bubble_chart = px.scatter(bubble_chart_df, x='Location', y='Count', size='Count',
+                              title='Relationship between Total Crime Types and Location',
+                              labels={'Count': 'Number of Crime Types'})
 
     # Convert the plots to HTML
     crime_type_chart_html = crime_type_chart.to_html(full_html=False)

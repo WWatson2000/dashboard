@@ -20,11 +20,11 @@ def index():
     # Create Pie chart for 'Last Outcome Category'
     outcome_category_chart = px.pie(df, names='Last outcome category', title='Last Outcome Category Distribution')
 
-    # Create Bar chart for the sum of each 'Location'
-    location_sum_chart = px.bar(df.groupby('Location').size().reset_index(name='Count'),
-                                x='Location', y='Count',
-                                title='Sum of Crimes by Location',
-                                labels={'Count': 'Number of Crimes'})
+    # Create Bar chart for the total count of each 'Location'
+    location_sum_chart = px.bar(df.groupby('Location').size().reset_index(name='Count').sort_values(by='Count', ascending=False),
+                            x='Location', y='Count',
+                            title='Total Count of Crimes by Location',
+                            labels={'Count': 'Number of Crimes'})
 
     # Convert the plots to HTML
     crime_type_chart_html = crime_type_chart.to_html(full_html=False)

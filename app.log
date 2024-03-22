@@ -2130,3 +2130,7 @@ INFO:werkzeug: * Detected change in '/Users/charlottewatson/Downloads/dashboard/
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 121-569-954
+INFO:werkzeug: * Detected change in '/Users/charlottewatson/Downloads/dashboard/static/Flastest.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 121-569-954

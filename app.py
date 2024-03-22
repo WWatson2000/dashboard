@@ -7,7 +7,6 @@ app = Flask(__name__)
 
 # Setup logging to assist with debugging and monitoring
 logging.basicConfig(filename="app.log", level=logging.DEBUG)
-
 # Load the CSV file into a DataFrame
 csv_path = "/Users/charlottewatson/Documents/2023-10-dorset-street.csv"
 df = pd.read_csv(csv_path)

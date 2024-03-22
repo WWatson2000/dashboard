@@ -2127,3 +2127,6 @@ INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 12:46:02] "GET /static/styles.css HTTP/
 INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 12:46:02] "[33mGET /Users/charlottewatson/Downloads/dashboard/static/dashboard-script.js HTTP/1.1[0m" 404 -
 INFO:werkzeug:127.0.0.1 - - [22/Mar/2024 12:46:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
 INFO:werkzeug: * Detected change in '/Users/charlottewatson/Downloads/dashboard/static/Flastest.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 121-569-954

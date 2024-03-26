@@ -8,20 +8,20 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #00649c;
-    padding: 10px;
+    background-color: white;
+    padding: 15px;
 }
 
 .logo img {
-    height: 50px; /* Adjust as needed */
+    height: 10px; /* Adjust as needed */
 }
 
 .banner {
-    color: white;
+    color: black;
     text-align: center;
-    padding: 10px;
-    margin-bottom: 20px;
+    margin: 20px auto; /* Center horizontally */
 }
+
 
 .container {
     display: flex;

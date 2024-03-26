@@ -4,9 +4,20 @@ body {
     padding: 0;
 }
 
-.banner {
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: #00649c;
-    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.logo img {
+    height: 50px; /* Adjust as needed */
+}
+
+.banner {
+    color: white;
     text-align: center;
     padding: 10px;
     margin-bottom: 20px;
@@ -30,10 +41,11 @@ body {
 }
 
 .chart-container h2 {
-    text-align: center;  /* Center the chart titles */
+    text-align: center; /* Center the chart titles */
 }
 
-h1, h2 {
+h1,
+h2 {
     color: #333;
 }
 

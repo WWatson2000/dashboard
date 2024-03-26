@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dorset Crime Statistics- October 2023</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="{{ url_for('static', filename='styles.css') }}"
@@ -12,41 +15,272 @@
   </head>
   <body>
     <header>
-      <div class="banner">
-        <h1>Dorset Crime Statistics - October 2023</h1>
-      </div>
+      <div class="banner"></div>
     </header>
-
     <div class="container">
-      <div class="chart-container">
-        <h2>Crime Type Distribution</h2>
-        {{ crime_type_chart_html|safe }}
-      </div>
+      <!-- Sidebar Section -->
+      <aside>
+        <div class="toggle">
+          <div class="logo">
+            <img src="images/Dorset_Police_badge.png" alt="" />
+            <h2>Governance<span class="danger"></span></h2>
+          </div>
+          <div class="close" id="close-btn">
+            <span class="material-icons-sharp"> close </span>
+          </div>
+        </div>
 
-      <div class="chart-container">
-        <h2>Last Outcome Category Distribution</h2>
-        {{ outcome_category_chart_html|safe }}
-      </div>
+        <div class="sidebar">
+          <a href="#">
+            <span class="material-icons-sharp"> dashboard </span>
+            <h3>Dashboard</h3>
+          </a>
+          <a href="#">
+            <span class="material-icons-sharp"> person_outline </span>
+            <h3>Users</h3>
+          </a>
+          <a href="#">
+            <span class="material-icons-sharp"> receipt_long </span>
+            <h3>History</h3>
+          </a>
+          <a href="#" class="active">
+            <span class="material-icons-sharp"> insights </span>
+            <h3>Analytics</h3>
+          </a>
+          <a href="#">
+            <span class="material-icons-sharp"> mail_outline </span>
+            <h3>Compliance</h3>
+            <span class="message-count">27</span>
+          </a>
+          <a href="#">
+            <span class="material-icons-sharp"> inventory </span>
+            <h3>List of Packages</h3>
+          </a>
+          <a href="#">
+            <span class="material-icons-sharp"> report_gmailerrorred </span>
+            <h3>Reports</h3>
+          </a>
+          <a href="#">
+            <span class="material-icons-sharp"> settings </span>
+            <h3>Settings</h3>
+          </a>
+          <a href="#">
+            <span class="material-icons-sharp"> add </span>
+            <h3>New Login</h3>
+          </a>
+          <a href="#">
+            <span class="material-icons-sharp"> logout </span>
+            <h3>Logout</h3>
+          </a>
+        </div>
+      </aside>
+      <!-- End of Sidebar Section -->
+      <!-- Main Content -->
+      <main>
+        <h1>Analytics</h1>
+        <!-- Analyses -->
+        <div class="analyse">
+          <div class="sales">
+            <div class="status">
+              <div class="info">
+                <h3>Total Packages</h3>
+                <h1>23</h1>
+              </div>
+              <div class="progresss">
+                <svg>
+                  <circle cx="38" cy="38" r="36"></circle>
+                </svg>
+                <div class="percentage">
+                  <p>+24%</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="visits">
+            <div class="status">
+              <div class="info">
+                <h3>Overall Completion %</h3>
+                <h1>56%</h1>
+              </div>
+              <div class="progresss">
+                <svg>
+                  <circle cx="38" cy="38" r="36"></circle>
+                </svg>
+                <div class="percentage">
+                  <p>48%</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="searches">
+            <div class="status">
+              <div class="info">
+                <h3>eLearning queries</h3>
+                <h1>126</h1>
+              </div>
+              <div class="progresss">
+                <svg>
+                  <circle cx="38" cy="38" r="36"></circle>
+                </svg>
+                <div class="percentage">
+                  <p>+21%</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End of Analyses -->
+        <!-- New Users Section -->
+        <div class="new-users">
+          <h2>New Users</h2>
+          <div class="user-list">
+            <div class="user">
+              <img src="images/1870038.png" alt="" />
+              <h2>Claire</h2>
+              <p>54 Min Ago</p>
+            </div>
+            <div class="user">
+              <img src="images/3616930.png" />
+              <h2>James</h2>
+              <p>22 Hours Ago</p>
+            </div>
+            <div class="user">
+              <img src="images/4974985.png" />
+              <h2>Nickie</h2>
+              <p>9 Hours Ago</p>
+            </div>
+            <div class="user">
+              <img src="images/plus.png" />
+              <h2>More</h2>
+              <p>New User</p>
+            </div>
+          </div>
+        </div>
+        <!-- End of New Users Section -->
 
-      <div class="chart-container">
-        <h2>Relationship between Crime Type and Last outcome category</h2>
-        {{ bubble_chart_html|safe }}
-      </div>
+        <!-- Recent Orders Table -->
+        <div class="recent-orders">
+          <h2>Recent eLearning</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Course Name</th>
+                <th>Course Code</th>
+                <th>Completion</th>
+                <th>Status</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+          <a href="#">Show All</a>
+        </div>
+        <!-- End of Recent Orders -->
+        <div class="chart-section">
+          <div class="chart-container">
+            <h2>Crime Type Distribution</h2>
+            {{ crime_type_chart_html|safe }}
+          </div>
 
-      <!-- Feedback Button -->
-      <div class="feedback-button-container">
-        <a
-          href="https://forms.office.com/e/QE9MjcYi6s"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <button id="feedbackButton" class="feedback-button">
-            Give Feedback
+          <div class="chart-container">
+            <h2>Last Outcome Category Distribution</h2>
+            {{ outcome_category_chart_html|safe }}
+          </div>
+
+          <div class="chart-container">
+            <h2>Relationship between Crime Type and Last outcome category</h2>
+            {{ bubble_chart_html|safe }}
+          </div>
+        </div>
+      </main>
+      <!-- End of Main Content -->
+
+      <!-- Right Section -->
+      <div class="right-section">
+        <div class="nav">
+          <button id="menu-btn">
+            <span class="material-icons-sharp"> menu </span>
           </button>
-        </a>
+          <div class="dark-mode">
+            <span class="material-icons-sharp active"> light_mode </span>
+            <span class="material-icons-sharp"> dark_mode </span>
+          </div>
+
+          <div class="profile">
+            <div class="info">
+              <p>Hey, <b>Charlotte</b></p>
+              <small class="text-muted">Admin</small>
+            </div>
+            <div class="profile-photo">
+              <img src="images/Dorset_Police_badge.png" />
+            </div>
+          </div>
+        </div>
+        <!-- End of Nav -->
+        <div class="user-profile">
+          <div class="logo">
+            <img src="images/Dorset_Police_badge.png" />
+            <h2>Governance</h2>
+            <p>eLearning SPOC</p>
+          </div>
+        </div>
+
+        <div class="reminders">
+          <div class="header">
+            <h2>Reminders</h2>
+            <span class="material-icons-sharp"> notifications_none </span>
+          </div>
+
+          <div class="notification">
+            <div class="icon">
+              <span class="material-icons-sharp"> volume_up </span>
+            </div>
+            <div class="content">
+              <div class="info">
+                <h3>Workshop</h3>
+                <small class="text_muted"> 08:00 AM - 12:00 PM </small>
+              </div>
+              <span class="material-icons-sharp"> more_vert </span>
+            </div>
+          </div>
+
+          <div class="notification deactive">
+            <div class="icon">
+              <span class="material-icons-sharp"> edit </span>
+            </div>
+            <div class="content">
+              <div class="info">
+                <h3>Workshop</h3>
+                <small class="text_muted"> 08:00 AM - 12:00 PM </small>
+              </div>
+              <span class="material-icons-sharp"> more_vert </span>
+            </div>
+          </div>
+
+          <div class="notification add-reminder">
+            <div>
+              <span class="material-icons-sharp"> add </span>
+              <h3>Add Reminder</h3>
+            </div>
+          </div>
+        </div>
+        <!-- Feedback Button -->
+        <div class="feedback-button-container">
+          <a
+            href="https://forms.office.com/e/QE9MjcYi6s"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button id="feedbackButton" class="feedback-button">
+              Give Feedback
+            </button>
+          </a>
+        </div>
       </div>
     </div>
 
+    <script src="orders.js"></script>
+    <script src="index.js"></script>
     <script src="/Users/charlottewatson/Downloads/dashboard/static/dashboard-script.js"></script>
   </body>
 </html>

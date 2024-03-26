@@ -2134,3 +2134,66 @@ INFO:werkzeug: * Detected change in '/Users/charlottewatson/Downloads/dashboard/
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 121-569-954
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 121-569-954
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 15:07:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 15:07:35] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 15:07:35] "[33mGET /Users/charlottewatson/Downloads/dashboard/static/dashboard-script.js HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/Users/charlottewatson/Downloads/dashboard/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 121-569-954
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 15:11:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 15:11:56] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 15:11:56] "[33mGET /Dorset_Police_badge.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 15:11:56] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 15:11:57] "[33mGET /Users/charlottewatson/Downloads/dashboard/static/dashboard-script.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 15:12:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 15:12:29] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 15:12:29] "[33mGET /images/Dorset_Police_badge.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 15:12:29] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 15:12:29] "[33mGET /Users/charlottewatson/Downloads/dashboard/static/dashboard-script.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 15:13:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 15:13:25] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 15:13:25] "[33mGET /Dorset_Police_badge.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 15:13:25] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 15:13:25] "[33mGET /Users/charlottewatson/Downloads/dashboard/static/dashboard-script.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 15:14:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 15:14:23] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 15:14:23] "[33mGET /Dorset_Police_badge.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 15:14:23] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 15:14:23] "[33mGET /Users/charlottewatson/Downloads/dashboard/static/dashboard-script.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 15:14:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 15:14:59] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 15:14:59] "[33mGET /Dorset_Police_badge.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 15:14:59] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 15:14:59] "[33mGET /Users/charlottewatson/Downloads/dashboard/static/dashboard-script.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 15:15:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 15:15:26] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 15:15:26] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 15:15:26] "[33mGET /Dorset_Police_badge.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 15:15:26] "[33mGET /Users/charlottewatson/Downloads/dashboard/static/dashboard-script.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 15:15:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 15:15:40] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 15:15:40] "[33mGET /Dorset_Police_badge.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 15:15:40] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 15:15:41] "[33mGET /Users/charlottewatson/Downloads/dashboard/static/dashboard-script.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 15:16:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 15:16:38] "[33mGET /Dorset_Police_badge.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 15:16:38] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 15:16:38] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 15:16:40] "[33mGET /Users/charlottewatson/Downloads/dashboard/static/dashboard-script.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 15:19:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 15:19:43] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 15:19:43] "[33mGET /images/dorset-police-logo-blue-sitelogo-217px.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 15:19:43] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 15:19:43] "[33mGET /Users/charlottewatson/Downloads/dashboard/static/dashboard-script.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 15:20:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 15:20:28] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 15:20:28] "[33mGET /templates/dorset-police-logo-blue-sitelogo-217px.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 15:20:28] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2024 15:20:28] "[33mGET /Users/charlottewatson/Downloads/dashboard/static/dashboard-script.js HTTP/1.1[0m" 404 -

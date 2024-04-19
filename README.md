@@ -23,3 +23,11 @@ cd dashboard
 Open index.html in your web browser.
 Explore the dashboard by interacting with the various elements and visualizations.
 Contributing
+
+Dependencies
+
+This project has the following dependencies:
+
+Chart.js: A JavaScript library for creating responsive, interactive charts.
+Bootstrap: A popular CSS framework for building responsive and mobile-first websites.
+jQuery: A fast, small, and feature-rich JavaScript library.
